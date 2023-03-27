@@ -1,2 +1,2 @@
 # landing-page
-CSS HTML landing page
+Landing Page Project
