@@ -26,12 +26,25 @@ body {
     font-size: 110px;
     display: flex;
     margin-top: 200px;
+    margin-left: 10px;
 }
 
 .headerText#subText {
     font-size: 30px;
     color: #E5E7EB;
     margin-top: 500px;
+}
+
+.reserveButton{
+    position: absolute;
+    margin-top:800px;
+    margin-left: 150px;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    padding: 10px 15px;
+    border: 2px solid black;
 }
 
 .navbar {
