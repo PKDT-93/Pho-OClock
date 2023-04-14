@@ -80,13 +80,21 @@ a:active {
     display: flex;
     color: black;
     font-size: 20px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .chefBio{
     flex:1;
+    position: relative;
 }
-.rightBorder{
+
+#border::before{
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin:  auto; /* This will center the border. */
+    width: 100%; /* Change this to whatever width you want. */
+    height: 80%;
+    padding-top: 40px; /* This creates some space between the element and the border. */
     border-right: 2px solid #ddd;
 }
 
