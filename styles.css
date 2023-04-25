@@ -34,9 +34,9 @@ body {
     margin-top: 500px;
 }
 
-.reserveButton{
+.reserveButton {
     position: absolute;
-    margin-top:800px;
+    margin-top: 800px;
     margin-left: 100px;
     border-radius: 4px;
     background-color: red;
@@ -76,38 +76,44 @@ a:active {
     color: black
 }
 
-.mid-top{
+.bio {
     display: flex;
     color: black;
     font-size: 20px;
     margin-top: 40px;
     gap: 20px;
+    background-color: ;
 }
 
-.chefBio{
-    flex:1;
+.chefBio {
+    flex: 1;
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.chefHeader{
+.chefHeader {
     font-family: 'Gotham Rounded', sans-serif;
-    font-size: 35px;
+    font-size: 22px;
     display: flex;
 }
 
-#border::before{
-    content: ""; /* This is necessary for the pseudo element to work. */ 
-    display: block; /* This will put the pseudo element on its own line. */
-    margin:  auto; /* This will center the border. */
-    width: 100%; /* Change this to whatever width you want. */
+#border::before {
+    content: "";
+    /* This is necessary for the pseudo element to work. */
+    display: block;
+    /* This will put the pseudo element on its own line. */
+    margin: auto;
+    /* This will center the border. */
+    width: 100%;
+    /* Change this to whatever width you want. */
     height: 80%;
-    padding-top: 40px; /* This creates some space between the element and the border. */
+    padding-top: 40px;
+    /* This creates some space between the element and the border. */
     border-right: 2px solid #ddd;
 }
 
-.chefPicture{
-    flex:1;
+.chefPicture {
+    flex: 1;
     gap: 10px;
     display: flex;
 }
@@ -116,11 +122,29 @@ a:active {
     padding: 5px;
 }
 
-.card#Sanji{
+.card#Sanji {
     margin-top: 25px;
 }
 
-
-.mid-bottom{
+.mid-bottom {
     background-color: #1F2937;
+}
+
+.foodPreview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.squareCards {
+    display: grid;
+    border: 2px solid #1F2937;
+    height: 200px;
+    width: 200px;
+    align-items: center;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
 }
