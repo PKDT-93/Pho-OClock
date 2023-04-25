@@ -134,10 +134,13 @@ a:active {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 100px;
+    
 }
 
+
 .squareCards {
-    display: grid;
+    display: flex;
     border: 2px solid #1F2937;
     height: 200px;
     width: 200px;
@@ -147,4 +150,5 @@ a:active {
 
 h1 {
     text-align: center;
+    font-size: 50px;
 }
