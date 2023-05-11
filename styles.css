@@ -106,6 +106,7 @@ a:active {
     flex-wrap: wrap;
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
 }
 
 /*Chef Bio header*/
@@ -127,12 +128,13 @@ a:active {
 
 /* anime chef pictures */
 .chefPicture {
-    flex: 1;
     gap: 10px;
     display: flex;
     padding-top: 10px;
     width: auto;
     height: auto;
+    flex-wrap: wrap;
+    padding-right: 10px;
 }
 
 /* We're unPHOgettable header */
@@ -144,6 +146,8 @@ h1 {
 /* Padding between the bio pictures*/
 .card {
     padding: 5px;
+    max-width: 500px;
+    max-height: 800px;
 }
 
 /* Moved down to align with right chef pic*/
