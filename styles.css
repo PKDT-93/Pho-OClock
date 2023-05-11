@@ -32,7 +32,6 @@ body {
     display: flex;
     margin-top: 200px;
     margin-left: 10px;
-    flex-wrap: wrap;
 }
 
 /*subtext beneath welcome message*/
