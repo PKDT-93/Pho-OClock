@@ -15,3 +15,5 @@ Pho3: https://unsplash.com/photos/L1ZhjK-R6uc
 Pho4: https://pixabay.com/photos/soup-pho-soup-vietnam-vietnamese-5250765/
 
 Chef illustrations from One Piece & Shokugeki no Soma.
+
+Website Preview: https://htmlpreview.github.io/?https://github.com/PKDT-93/landing-page/blob/main/index.html
