@@ -101,6 +101,7 @@ a:active {
 /*Chef Bio contents*/
 .chefBio {
     flex: 1;
+    flex-wrap: wrap;
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -169,6 +170,7 @@ h1 {
 
 .foodPreview {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 100px;
