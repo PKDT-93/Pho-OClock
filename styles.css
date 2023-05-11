@@ -146,8 +146,8 @@ h1 {
 /* Padding between the bio pictures*/
 .card {
     padding: 5px;
-    max-width: 500px;
-    max-height: 800px;
+    max-width: 400px;
+    max-height: 600px;
 }
 
 /* Moved down to align with right chef pic*/
