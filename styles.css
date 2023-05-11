@@ -1,17 +1,21 @@
+/*All contents within a main container*/
 .flex-container {
     display: flex;
     flex-direction: column;
     font-family: 'Gotham Rounded', sans-serif;
 }
 
+/*margin 0 to remove whitespace around webpage*/
 body {
     margin: 0px;
 }
 
+/*navbar color*/
 .header {
     background-color: #1F2937;
 }
 
+/*background image for welcome message*/
 .headerPhoto {
     background-size: cover;
     background-image: url(images/pho-banner.jpg);
@@ -19,6 +23,7 @@ body {
     height: 1000px;
 }
 
+/*Welcome message*/
 .headerText {
     position: absolute;
     color: #f9faf8;
@@ -28,12 +33,14 @@ body {
     margin-left: 10px;
 }
 
+/*subtext beneath welcome message*/
 .headerText#subText {
     font-size: 30px;
     color: #E5E7EB;
     margin-top: 500px;
 }
 
+/*Red reserve button*/
 .reserveButton {
     position: absolute;
     margin-top: 800px;
@@ -47,6 +54,7 @@ body {
     cursor: pointer;
 }
 
+/*navbar header section*/
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -55,6 +63,7 @@ body {
     max-width: 100;
 }
 
+/*navbar contents*/
 .navbar .links {
     display: flex;
     font-size: 18px;
@@ -64,18 +73,22 @@ body {
     color: #E5E7EB;
 }
 
-.navbar .logo {
-    margin-left: 10px;
-}
-
-.logo img {
-    width: 100px;
-}
-
+/*hover over navbar links to turn black*/
 a:active {
     color: black
 }
 
+/*logo margins*/
+.navbar .logo {
+    margin-left: 10px;
+}
+
+/*top left 124PHO5 logo*/
+.logo img {
+    width: 100px;
+}
+
+/*Chef Bio section*/
 .bio {
     display: flex;
     color: black;
@@ -85,32 +98,31 @@ a:active {
     padding-top: 20px;
 }
 
+/*Chef Bio contents*/
 .chefBio {
     flex: 1;
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*Chef Bio header*/
 .chefHeader {
     font-family: 'Gotham Rounded', sans-serif;
-    font-size: 22px;
+    font-size: 20px;
     display: flex;
 }
 
+/*Line seperating bio and chef pictures*/
 #border::before {
     content: "";
-    /* This is necessary for the pseudo element to work. */
     display: block;
-    /* This will put the pseudo element on its own line. */
     margin: auto;
-    /* This will center the border. */
     width: 100%;
-    /* Change this to whatever width you want. */
     height: 90%;
-    /* This creates some space between the element and the border. */
     border-right: 2px solid #ddd;
 }
 
+/* anime chef pictures */
 .chefPicture {
     flex: 1;
     gap: 10px;
@@ -120,14 +132,23 @@ a:active {
     height: auto;
 }
 
+/* We're unPHOgettable header */
+h1 {
+    text-align: center;
+    font-size: 52px;
+}
+
+/* Padding between the bio pictures*/
 .card {
     padding: 5px;
 }
 
+/* Moved down to align with right chef pic*/
 .card#Sanji {
     margin-top: 25px;
 }
 
+/*css for quote at bottom of the page*/
 .mid-bottom {
     background-color: #1F2937;
     color: white;
@@ -139,6 +160,7 @@ a:active {
     font-style: italic;
 }
 
+/*Author and github link*/
 .footer{
     background-color: white;
     justify-content: center;
@@ -152,6 +174,7 @@ a:active {
     gap: 100px;
 }
 
+/*Create square cards with rounded corners for food preview*/
 .squareCards {
     display: flex;
     border: 2px solid #1F2937;
@@ -163,6 +186,7 @@ a:active {
     border-radius: 60px;
 }
 
+/*Captions below food preview cards*/
 figure figcaption{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -170,9 +194,4 @@ figure figcaption{
     justify-content: center;
     font-size: 28px;
     padding-top: 30px
-}
-
-h1 {
-    text-align: center;
-    font-size: 50px;
 }
